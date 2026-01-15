@@ -8,7 +8,7 @@ PROJECT DEMONSTRATION
 https://docs.google.com/presentation/d/1KBzgdgQHYZDE7jkjTGKA2P3UjTCv4jJa/edit?usp=drive_link&amp;ouid=112329287865788593755&amp;rtpof=true&amp;sd=true
 PROJECT
 
-https://github.com/Vasusolanki811/nasaspaceapp2025-frontend4.git
+https://github.com/aarti290589/Nasa-space-app.git
 PROJECT DETAILS
 
 Our project is designed to utilize solar energy as a sustainable renewable energy source for specific geographical regions by analyzing NASA’s weather, solar irradiance and environmental data. The project works by integrating Earth observation dataset that includes climate patterns, atmospheric conditions, and geological features to suggest regional location coordinates on earth that have optimal potential to garner the most out of solar radiation reaching earth.  
