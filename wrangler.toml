@@ -1,0 +1,29 @@
+# The name of your worker project.
+name = "nasaspaceapp2025-frontend4"
+
+# The entry file for your worker logic. For a Workers Site, this is 
+# typically a simple file to handle asset serving.
+main = "worker.js" 
+
+# The latest recommended compatibility date for Cloudflare's runtime.
+compatibility_date = "2024-05-23"
+
+# ====================================================================
+# STATIC SITE CONFIGURATION 🏆
+# This tells Wrangler to serve the contents of the 'dist' folder.
+# This replaces the old 'assets = "./dist"' line.
+[site]
+# 'bucket' specifies the directory containing the built static files (from Vite).
+bucket = "./dist"
+
+# If you need to use a custom worker (like worker.js) to handle 
+# routing/requests *before* serving assets, you would uncomment this.
+# entry-point = "worker.js" 
+
+# ====================================================================
+# BUILD CONFIGURATION
+# This tells Wrangler how to create the static files it needs to upload.
+# ====================================================================
+[build]
+# Your command to install dependencies and run the Vite build.
+command = "npm install && npm run build"
